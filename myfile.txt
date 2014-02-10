@@ -98,3 +98,126 @@ Total of all 100 runs -- Date: 09-02-2014-07:02:49 Executed in: 12.902 Seconds
 Uncommon: 537  Common: 2282  Rare: 160  Epic: 17  Legendary: 4
 
 
+Total of all 20 runs -- Date: 09-02-2014-08:20:15 Executed in: 0.38 Seconds
+Uncommon: 107  Common: 467  Rare: 23  Epic: 3  Legendary: 0
+
+
+Total of all 20 runs -- Date: 09-02-2014-08:21:27 Executed in: 0.393 Seconds
+Uncommon: 120  Common: 444  Rare: 36  Epic: 0  Legendary: 0
+
+
+Total of all 50 runs -- Date: 09-02-2014-08:21:45 Executed in: 2.457 Seconds
+Uncommon: 261  Common: 1179  Rare: 53  Epic: 6  Legendary: 1
+
+
+Total of all 100 runs -- Date: 09-02-2014-08:22:22 Executed in: 12.834 Seconds
+Uncommon: 541  Common: 2274  Rare: 171  Epic: 13  Legendary: 1
+
+
+Total of all 100 runs -- Date: 09-02-2014-08:30:49 Executed in: 12.865 Seconds
+Uncommon: 546  Common: 2320  Rare: 120  Epic: 13  Legendary: 1
+
+
+Total of all 50 runs -- Date: 09-02-2014-08:37:08 Executed in: 2.479 Seconds
+Uncommon: 261  Common: 1160  Rare: 70  Epic: 8  Legendary: 1
+
+
+Total of all 50 runs -- Date: 09-02-2014-08:38:24 Executed in: 2.524 Seconds
+Uncommon: 288  Common: 1137  Rare: 62  Epic: 11  Legendary: 2
+
+
+Total of all 200 runs -- Date: 09-02-2014-08:43:11 Executed in: 202.223 Seconds
+Uncommon: 1461  Common: 4294  Rare: 215  Epic: 20  Legendary: 10
+
+
+Total of all 200 runs -- Date: 09-02-2014-08:52:22 Executed in: 69.214 Seconds
+Uncommon: 1066  Common: 4625  Rare: 261  Epic: 26  Legendary: 22
+
+
+Total of all 100 runs -- Date: 09-02-2014-08:59:06 Executed in: 13.58 Seconds
+Uncommon: 533  Common: 2291  Rare: 142  Epic: 15  Legendary: 19
+
+
+Total of all 100 runs -- Date: 09-02-2014-08:59:38 Executed in: 13.125 Seconds
+Uncommon: 545  Common: 2293  Rare: 137  Epic: 10  Legendary: 15
+
+
+Total of all 50 runs -- Date: 09-02-2014-09:00:39 Executed in: 2.475 Seconds
+Uncommon: 257  Common: 1169  Rare: 66  Epic: 2  Legendary: 6
+
+
+Total of all 50 runs -- Date: 09-02-2014-09:02:09 Executed in: 2.554 Seconds
+Uncommon: 279  Common: 1140  Rare: 70  Epic: 5  Legendary: 6
+
+
+Total of all 100 runs -- Date: 09-02-2014-09:03:10 Executed in: 12.881 Seconds
+Uncommon: 560  Common: 2296  Rare: 118  Epic: 13  Legendary: 13
+
+
+Total of all 200 runs -- Date: 09-02-2014-09:06:52 Executed in: 69.329 Seconds
+Uncommon: 1094  Common: 4590  Rare: 260  Epic: 37  Legendary: 19
+
+
+Total of all 200 runs -- Date: 09-02-2014-09:10:01 Executed in: 68.374 Seconds
+Uncommon: 1137  Common: 4534  Rare: 294  Epic: 19  Legendary: 16
+
+
+Total of all 200 runs -- Date: 09-02-2014-09:27:53 Executed in: 68.412 Seconds
+Uncommon: 1141  Common: 4548  Rare: 262  Epic: 21  Legendary: 28
+
+
+Total of all 150 runs -- Date: 09-02-2014-09:31:09 Executed in: 34.241 Seconds
+Uncommon: 811  Common: 3433  Rare: 227  Epic: 21  Legendary: 8
+
+
+Total of all 150 runs -- Date: 09-02-2014-09:33:21 Executed in: 34.376 Seconds
+Uncommon: 808  Common: 3449  Rare: 202  Epic: 17  Legendary: 24
+
+
+Total of all 175 runs -- Date: 09-02-2014-10:19:29 Executed in: 48.928 Seconds
+Uncommon: 937  Common: 4024  Rare: 241  Epic: 27  Legendary: 21
+
+
+Total of all 100 runs -- Date: 09-02-2014-10:35:11 Executed in: 13.117 Seconds
+Uncommon: 543  Common: 2294  Rare: 137  Epic: 13  Legendary: 13
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:02:54 Executed in: 12.101 Seconds
+Uncommon: 509  Common: 2304  Rare: 151  Epic: 28  Legendary: 8
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:03:32 Executed in: 11.73 Seconds
+Uncommon: 543  Common: 2280  Rare: 153  Epic: 11  Legendary: 13
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:04:00 Executed in: 11.67 Seconds
+Uncommon: 528  Common: 2304  Rare: 148  Epic: 15  Legendary: 5
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:08:26 Executed in: 12.6 Seconds
+Uncommon: 532  Common: 2302  Rare: 147  Epic: 16  Legendary: 3
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:11:53 Executed in: 12.599 Seconds
+Uncommon: 529  Common: 2304  Rare: 149  Epic: 16  Legendary: 2
+
+
+Total of all 50 runs -- Date: 10-02-2014-12:12:57 Executed in: 2.304 Seconds
+Uncommon: 279  Common: 1130  Rare: 83  Epic: 5  Legendary: 3
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:17:21 Executed in: 0.269 Seconds
+Uncommon: 0  Common: 2566  Rare: 313  Epic: 86  Legendary: 35
+
+Total of all 1000 runs -- Date: 10-02-2014-12:18:03 Executed in: 26.489 Seconds
+Uncommon: 0  Common: 25803  Rare: 3128  Epic: 773  Legendary: 296
+
+
+Total of all 100 runs -- Date: 10-02-2014-12:19:40 Executed in: 0.285 Seconds
+Uncommon: 670  Common: 1898  Rare: 312  Epic: 86  Legendary: 34
+
+
+Total of all 500 runs -- Date: 10-02-2014-12:19:53 Executed in: 6.439 Seconds
+Uncommon: 3381  Common: 9539  Rare: 1549  Epic: 419  Legendary: 112
+
+

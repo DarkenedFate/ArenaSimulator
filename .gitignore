@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+visualvm_137/
 
 # External tool builders
 .externalToolBuilders/

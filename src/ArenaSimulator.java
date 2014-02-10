@@ -14,7 +14,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 
@@ -25,10 +24,10 @@ public class ArenaSimulator {
 //	private static int timesRun;
 	private static List<Cards> listDeck = new ArrayList<>();
 	private static List<Cards> listChoices = new ArrayList<>();
-	private static HashSet<Cards> setCommons = new HashSet<>();
-	private static HashSet<Cards> setRares = new HashSet<>();
-	private static HashSet<Cards> setEpics = new HashSet<>();
-	private static HashSet<Cards> setLegends = new HashSet<>();
+	private static List<Cards> setCommons = new ArrayList<>();
+	private static List<Cards> setRares = new ArrayList<>();
+	private static List<Cards> setEpics = new ArrayList<>();
+	private static List<Cards> setLegends = new ArrayList<>();
 	private static Cards[] cards;
 //	private static StringBuilder format = new StringBuilder();
 //	private static StringBuilder deckContent = new StringBuilder();
@@ -59,7 +58,7 @@ public class ArenaSimulator {
 
 			// pick 30 cards
 			for (int j = 0; j < 30; j++) {
-				pickRandomCard(Classes.ROGUE);
+				pickRandomCard();
 			}
 
 			calcCardTypes();
@@ -87,23 +86,22 @@ public class ArenaSimulator {
 
 	}
 
-	private static void pickRandomCard(Classes className) {
+	private static void pickRandomCard() {
 		double random = Math.random();
 		int size = listDeck.size();
 
 		/*
 		 * ************ LEGENDARY ************ ~3% chance if either first or
-		 * last choice of 3. Otherwise, ~1% chance
+		 * last choice of 3. 
+		 * 
+		 * Otherwise, ~1% chance
 		 */
 		if (random >= 0.991
 				|| ((size == 0 || size == 29) && random >= 0.97)) {
-			for (Cards card : setLegends) {
-				if (((card.getClasss() != null && card.getClasss().intValue() == className
-						.getValue()) || card.getClasss() == null)
-						&& card.getQuality().intValue() == 5) {
-					listChoices.add(card);
-				}
-			}
+			Collections.shuffle(setLegends);
+			listChoices.add(setLegends.get(0));
+			listChoices.add(setLegends.get(1));
+			listChoices.add(setLegends.get(2));
 		}
 		/*
 		 * ************ EPIC ************ ~10% chance if either first or last
@@ -113,13 +111,10 @@ public class ArenaSimulator {
 		 */
 		else if (random >= 0.965
 				|| ((size == 0 || size == 29) && random >= 0.90)) {
-			for (Cards card : setEpics) {
-				if (((card.getClasss() != null && card.getClasss().intValue() == className
-						.getValue()) || card.getClasss() == null)
-						&& card.getQuality().intValue() == 4) {
-					listChoices.add(card);
-				}
-			}
+			Collections.shuffle(setEpics);
+			listChoices.add(setEpics.get(0));
+			listChoices.add(setEpics.get(1));
+			listChoices.add(setEpics.get(2));
 		}
 		/*
 		 * ************ RARE ************ ~100% chance if either first or last
@@ -129,22 +124,15 @@ public class ArenaSimulator {
 		 */
 		else if (random >= 0.92
 				|| ((size == 0 || size == 29) && random >= 0)) {
-			for (Cards card : setRares) {
-				if (((card.getClasss() != null && card.getClasss().intValue() == className
-						.getValue()) || card.getClasss() == null)
-						&& card.getQuality().intValue() == 3) {
-					listChoices.add(card);
-				}
-			}
+			Collections.shuffle(setRares);
+			listChoices.add(setRares.get(0));
+			listChoices.add(setRares.get(1));
+			listChoices.add(setRares.get(2));
 		} else {
-			for (Cards card : setCommons) {
-				if (((card.getClasss() != null && card.getClasss().intValue() == className
-						.getValue()) || card.getClasss() == null)
-						&& (card.getQuality().intValue() == 1 || card
-								.getQuality().intValue() == 0)) {
-					listChoices.add(card);
-				}
-			}
+			Collections.shuffle(setCommons);
+			listChoices.add(setCommons.get(0));
+			listChoices.add(setCommons.get(1));
+			listChoices.add(setCommons.get(2));
 		}
 
 		Collections.shuffle(listChoices);
