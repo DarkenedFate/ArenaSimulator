@@ -54,3 +54,47 @@ Total of all 500 runs -- Date: 03-02-2014-03:20:45 Executed in: 608.966 Seconds
 Uncommon: 2714  Common: 11477  Rare: 699  Epic: 48  Legendary: 62
 
 
+Total of all 50 runs -- Date: 09-02-2014-03:04:15 Executed in: 2.408 Seconds
+Uncommon: 269  Common: 1155  Rare: 62  Epic: 7  Legendary: 7
+
+
+Total of all 100 runs -- Date: 09-02-2014-03:04:36 Executed in: 13.32 Seconds
+Uncommon: 538  Common: 2299  Rare: 135  Epic: 15  Legendary: 13
+
+
+Total of all 100 runs -- Date: 09-02-2014-03:06:01 Executed in: 13.128 Seconds
+Uncommon: 574  Common: 2278  Rare: 123  Epic: 11  Legendary: 14
+
+
+Total of all 100 runs -- Date: 09-02-2014-03:06:47 Executed in: 12.818 Seconds
+Uncommon: 556  Common: 2274  Rare: 142  Epic: 13  Legendary: 15
+
+
+Total of all 200 runs -- Date: 09-02-2014-03:08:32 Executed in: 67.199 Seconds
+Uncommon: 1088  Common: 4603  Rare: 268  Epic: 21  Legendary: 20
+
+
+Total of all 500 runs -- Date: 09-02-2014-04:49:05 Executed in: 635.321 Seconds
+Uncommon: 2761  Common: 11444  Rare: 696  Epic: 59  Legendary: 40
+
+
+Total of all 500 runs -- Date: 09-02-2014-05:09:32 Executed in: 567.43 Seconds
+Uncommon: 2817  Common: 11399  Rare: 680  Epic: 57  Legendary: 47
+
+
+Total of all 500 runs -- Date: 09-02-2014-05:55:51 Executed in: 568.541 Seconds
+Uncommon: 2719  Common: 11498  Rare: 682  Epic: 60  Legendary: 41
+
+
+Total of all 10 runs -- Date: 09-02-2014-07:01:48 Executed in: 0.135 Seconds
+Uncommon: 59  Common: 229  Rare: 10  Epic: 2  Legendary: 0
+
+
+Total of all 50 runs -- Date: 09-02-2014-07:02:32 Executed in: 2.493 Seconds
+Uncommon: 280  Common: 1127  Rare: 73  Epic: 12  Legendary: 8
+
+
+Total of all 100 runs -- Date: 09-02-2014-07:02:49 Executed in: 12.902 Seconds
+Uncommon: 537  Common: 2282  Rare: 160  Epic: 17  Legendary: 4
+
+

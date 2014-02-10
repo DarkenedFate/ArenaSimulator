@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,6 +25,10 @@ public class ArenaSimulator {
 //	private static int timesRun;
 	private static List<Cards> listDeck = new ArrayList<>();
 	private static List<Cards> listChoices = new ArrayList<>();
+	private static HashSet<Cards> setCommons = new HashSet<>();
+	private static HashSet<Cards> setRares = new HashSet<>();
+	private static HashSet<Cards> setEpics = new HashSet<>();
+	private static HashSet<Cards> setLegends = new HashSet<>();
 	private static Cards[] cards;
 //	private static StringBuilder format = new StringBuilder();
 //	private static StringBuilder deckContent = new StringBuilder();
@@ -54,7 +59,7 @@ public class ArenaSimulator {
 
 			// pick 30 cards
 			for (int j = 0; j < 30; j++) {
-				pickRandomCard(Classes.SHAMAN);
+				pickRandomCard(Classes.ROGUE);
 			}
 
 			calcCardTypes();
@@ -92,7 +97,7 @@ public class ArenaSimulator {
 		 */
 		if (random >= 0.991
 				|| ((size == 0 || size == 29) && random >= 0.97)) {
-			for (Cards card : cards) {
+			for (Cards card : setLegends) {
 				if (((card.getClasss() != null && card.getClasss().intValue() == className
 						.getValue()) || card.getClasss() == null)
 						&& card.getQuality().intValue() == 5) {
@@ -108,7 +113,7 @@ public class ArenaSimulator {
 		 */
 		else if (random >= 0.965
 				|| ((size == 0 || size == 29) && random >= 0.90)) {
-			for (Cards card : cards) {
+			for (Cards card : setEpics) {
 				if (((card.getClasss() != null && card.getClasss().intValue() == className
 						.getValue()) || card.getClasss() == null)
 						&& card.getQuality().intValue() == 4) {
@@ -124,7 +129,7 @@ public class ArenaSimulator {
 		 */
 		else if (random >= 0.92
 				|| ((size == 0 || size == 29) && random >= 0)) {
-			for (Cards card : cards) {
+			for (Cards card : setRares) {
 				if (((card.getClasss() != null && card.getClasss().intValue() == className
 						.getValue()) || card.getClasss() == null)
 						&& card.getQuality().intValue() == 3) {
@@ -132,7 +137,7 @@ public class ArenaSimulator {
 				}
 			}
 		} else {
-			for (Cards card : cards) {
+			for (Cards card : setCommons) {
 				if (((card.getClasss() != null && card.getClasss().intValue() == className
 						.getValue()) || card.getClasss() == null)
 						&& (card.getQuality().intValue() == 1 || card
@@ -236,6 +241,27 @@ public class ArenaSimulator {
 
 		// Set our pojo from the GSON data
 		cards = gson.fromJson(jsonString, Cards[].class);
+		
+		for (Cards card : cards) {
+			switch (card.getQuality().intValue()) {
+			case 0:
+				setCommons.add(card);
+				break;
+			case 1:
+				setCommons.add(card);
+				break;
+			case 3:
+				setRares.add(card);
+				break;
+			case 4:
+				setEpics.add(card);
+				break;
+			case 5:
+				setLegends.add(card);
+				break;
+			}
+		}
+		
 	}
 
 }
